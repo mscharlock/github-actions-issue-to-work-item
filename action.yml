@@ -10,3 +10,5 @@ outputs:
 runs:
   using: "node12"
   main: "index.js"
+v- name: GitHub Issues to Azure DevOps
+  uses: danhellem/github-actions-issue-to-work-item@1.9
